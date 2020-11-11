@@ -9,3 +9,4 @@ Notes:
 1. There is a hole in this security, airtight authentication will take more time to build and this is just a sample.
 2. In Adding new security, I have left out adding images. In prior sites I developed, I had numerous uploads. I need more time to add that functionality.
 3. The DevExpress/DevExtreme grid gives similar functionality with paging etc. I initially started with that but it was more complex and would require more than 3-4 days to implement. I also experimented with PartialViews and Razor with PageModels.
+4. I initially started with .Net framework version and the popup looked very professional. After migrating to .Net Core, the popup did not behave the same way and I took a shortcut to open a blank window and set URL instead. In production, I would prefer to go with a DevExpress or similar grid instead.
